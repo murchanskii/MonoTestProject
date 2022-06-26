@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="UnigineTest1.cpp" />
+    <ClCompile Include="source\node.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\logger.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mono_wrapper\mono_scripts.cpp">
+      <Filter>source\mono_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mono_wrapper\mono_script.cpp">
+      <Filter>source\mono_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mono_wrapper\mono_script_instance.cpp">
+      <Filter>source\mono_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\config.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\components_helper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{1df02ff6-6227-4147-9dd0-6b852bcea84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{551fd647-0cf6-4a04-8d78-4c02da93f506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\mono_wrapper">
+      <UniqueIdentifier>{e3e2ba2a-68a6-4c6e-8c56-6d15163b64a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\Node.cs">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="..\..\assets\MyNode.cs">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\node.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\logger.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mono_wrapper\mono_scripts.h">
+      <Filter>source\mono_wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mono_wrapper\mono_script.h">
+      <Filter>source\mono_wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\mono_wrapper\mono_script_instance.h">
+      <Filter>source\mono_wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\config.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\components_helper.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

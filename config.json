@@ -1,0 +1,16 @@
+{
+	"domainName" : "UnigineTest1",
+	"mcsPath" : "..\\..\\plugins\\mono_bins\\bin_mcs\\mcs", 
+	"monoAssemblyDir" : "..\\..\\plugins\\mono_bins\\lib\\mono\\lib", 
+	"monoConfigDir" : "..\\..\\plugins\\mono_bins\\lib\\mono\\etc", 
+	"assetsDir" : "assets",
+	"outDir" : "components",
+	"cppDllName" : "CppComponents.dll",
+	"csharpDllName" : "CsharpComponents.dll",
+	"cppComponents" : [
+		"Node.cs"
+	], 
+	"csharpComponents" : [
+		"MyNode.cs"
+	]
+}
