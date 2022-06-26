@@ -1,0 +1,9 @@
+.vs/
+components/
+
+/plugins/mono_bins/lib/
+
+/projects/UnigineTest1/assets/
+/projects/UnigineTest1/config.json
+
+x64/
