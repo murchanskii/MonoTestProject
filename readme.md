@@ -12,7 +12,7 @@ Project made to learn how to make C# scripts for C++ engines using Mono.
 `config.json` stores paths for Mono and engine assets and components
 
 - _monoAssemblyDir_ and _monoConfigDir_ have to point to Mono installation libraries
-- 
+
 
 ### Execution
 ___
